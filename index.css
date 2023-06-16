@@ -7,8 +7,8 @@
 }
 
 .container {
-    height: 256px;
-    width: 256px;
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     outline: 2px dashed blue;
@@ -20,7 +20,6 @@
     align-items: center;
 }
 
-.container-row div {
-    height: 16px;
-    width: 16px;
+.pixel {
+    background-color: black;
 }
